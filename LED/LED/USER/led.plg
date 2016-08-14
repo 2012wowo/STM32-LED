@@ -1,0 +1,349 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\Keil\github\stm32\LED\USER\led.uvproj
+Project File Date:  07/14/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+test.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+test.c:   # include "sys.h"
+test.c:                    ^
+test.c: test.c: 0 warnings, 1 error
+compiling delay.c...
+..\SYSTEM\delay\delay.c(27): warning:  #223-D: function "SysTick_CLKSourceConfig" declared implicitly
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:        ^
+..\SYSTEM\delay\delay.c(27): error:  #20: identifier "SysTick_CLKSource_HCLK_Div8" is undefined
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:                                ^
+..\SYSTEM\delay\delay.c: ..\SYSTEM\delay\delay.c: 1 warning, 1 error
+compiling sys.c...
+..\SYSTEM\sys\sys.c(18): warning:  #223-D: function "NVIC_PriorityGroupConfig" declared implicitly
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:       ^
+..\SYSTEM\sys\sys.c(18): error:  #20: identifier "NVIC_PriorityGroup_2" is undefined
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:                                ^
+..\SYSTEM\sys\sys.c: ..\SYSTEM\sys\sys.c: 1 warning, 1 error
+compiling usart.c...
+..\SYSTEM\usart\usart.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\SYSTEM\usart\usart.c:   #include "sys.h"
+..\SYSTEM\usart\usart.c:                   ^
+..\SYSTEM\usart\usart.c: ..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+compiling led.c...
+..\Hard ware\LED\led.h(3): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\Hard ware\LED\led.h:   # include "sys.h"
+..\Hard ware\LED\led.h:                    ^
+..\Hard ware\LED\led.h: ..\Hard ware\LED\led.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling test.c...
+test.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+test.c:   # include "sys.h"
+test.c:                    ^
+test.c: test.c: 0 warnings, 1 error
+compiling delay.c...
+..\SYSTEM\delay\delay.c(27): warning:  #223-D: function "SysTick_CLKSourceConfig" declared implicitly
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:        ^
+..\SYSTEM\delay\delay.c(27): error:  #20: identifier "SysTick_CLKSource_HCLK_Div8" is undefined
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:                                ^
+..\SYSTEM\delay\delay.c: ..\SYSTEM\delay\delay.c: 1 warning, 1 error
+compiling sys.c...
+..\SYSTEM\sys\sys.c(18): warning:  #223-D: function "NVIC_PriorityGroupConfig" declared implicitly
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:       ^
+..\SYSTEM\sys\sys.c(18): error:  #20: identifier "NVIC_PriorityGroup_2" is undefined
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:                                ^
+..\SYSTEM\sys\sys.c: ..\SYSTEM\sys\sys.c: 1 warning, 1 error
+compiling usart.c...
+..\SYSTEM\usart\usart.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\SYSTEM\usart\usart.c:   #include "sys.h"
+..\SYSTEM\usart\usart.c:                   ^
+..\SYSTEM\usart\usart.c: ..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+compiling led.c...
+..\Hard ware\LED\led.h(3): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\Hard ware\LED\led.h:   # include "sys.h"
+..\Hard ware\LED\led.h:                    ^
+..\Hard ware\LED\led.h: ..\Hard ware\LED\led.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+test.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+test.c:   # include "sys.h"
+test.c:                    ^
+test.c: test.c: 0 warnings, 1 error
+compiling delay.c...
+..\SYSTEM\delay\delay.c(27): warning:  #223-D: function "SysTick_CLKSourceConfig" declared implicitly
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:        ^
+..\SYSTEM\delay\delay.c(27): error:  #20: identifier "SysTick_CLKSource_HCLK_Div8" is undefined
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:                                ^
+..\SYSTEM\delay\delay.c: ..\SYSTEM\delay\delay.c: 1 warning, 1 error
+compiling sys.c...
+..\SYSTEM\sys\sys.c(18): warning:  #223-D: function "NVIC_PriorityGroupConfig" declared implicitly
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:       ^
+..\SYSTEM\sys\sys.c(18): error:  #20: identifier "NVIC_PriorityGroup_2" is undefined
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:                                ^
+..\SYSTEM\sys\sys.c: ..\SYSTEM\sys\sys.c: 1 warning, 1 error
+compiling usart.c...
+..\SYSTEM\usart\usart.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\SYSTEM\usart\usart.c:   #include "sys.h"
+..\SYSTEM\usart\usart.c:                   ^
+..\SYSTEM\usart\usart.c: ..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+compiling led.c...
+..\Hard ware\LED\led.h(3): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\Hard ware\LED\led.h:   # include "sys.h"
+..\Hard ware\LED\led.h:                    ^
+..\Hard ware\LED\led.h: ..\Hard ware\LED\led.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling test.c...
+test.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+test.c:   # include "sys.h"
+test.c:                    ^
+test.c: test.c: 0 warnings, 1 error
+compiling delay.c...
+..\SYSTEM\delay\delay.c(27): warning:  #223-D: function "SysTick_CLKSourceConfig" declared implicitly
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:        ^
+..\SYSTEM\delay\delay.c(27): error:  #20: identifier "SysTick_CLKSource_HCLK_Div8" is undefined
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:                                ^
+..\SYSTEM\delay\delay.c: ..\SYSTEM\delay\delay.c: 1 warning, 1 error
+compiling sys.c...
+..\SYSTEM\sys\sys.c(18): warning:  #223-D: function "NVIC_PriorityGroupConfig" declared implicitly
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:       ^
+..\SYSTEM\sys\sys.c(18): error:  #20: identifier "NVIC_PriorityGroup_2" is undefined
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:                                ^
+..\SYSTEM\sys\sys.c: ..\SYSTEM\sys\sys.c: 1 warning, 1 error
+compiling usart.c...
+..\SYSTEM\usart\usart.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\SYSTEM\usart\usart.c:   #include "sys.h"
+..\SYSTEM\usart\usart.c:                   ^
+..\SYSTEM\usart\usart.c: ..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+compiling led.c...
+..\Hard ware\LED\led.h(3): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\Hard ware\LED\led.h:   # include "sys.h"
+..\Hard ware\LED\led.h:                    ^
+..\Hard ware\LED\led.h: ..\Hard ware\LED\led.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling test.c...
+test.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+test.c:   # include "sys.h"
+test.c:                    ^
+test.c: test.c: 0 warnings, 1 error
+compiling delay.c...
+..\SYSTEM\delay\delay.c(27): warning:  #223-D: function "SysTick_CLKSourceConfig" declared implicitly
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:        ^
+..\SYSTEM\delay\delay.c(27): error:  #20: identifier "SysTick_CLKSource_HCLK_Div8" is undefined
+..\SYSTEM\delay\delay.c:        SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);   //选择外部时钟  HCLK/8
+..\SYSTEM\delay\delay.c:                                ^
+..\SYSTEM\delay\delay.c: ..\SYSTEM\delay\delay.c: 1 warning, 1 error
+compiling sys.c...
+..\SYSTEM\sys\sys.c(18): warning:  #223-D: function "NVIC_PriorityGroupConfig" declared implicitly
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:       ^
+..\SYSTEM\sys\sys.c(18): error:  #20: identifier "NVIC_PriorityGroup_2" is undefined
+..\SYSTEM\sys\sys.c:       NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);      //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+..\SYSTEM\sys\sys.c:                                ^
+..\SYSTEM\sys\sys.c: ..\SYSTEM\sys\sys.c: 1 warning, 1 error
+compiling usart.c...
+..\SYSTEM\usart\usart.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\SYSTEM\usart\usart.c:   #include "sys.h"
+..\SYSTEM\usart\usart.c:                   ^
+..\SYSTEM\usart\usart.c: ..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+compiling led.c...
+led.c: Error:  #5: cannot open source input file "..\Hard ware\LED\led.c": No such file or directory
+led.c: ..\Hard ware\LED\led.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+test.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+test.c:   # include "sys.h"
+test.c:                    ^
+test.c: test.c: 0 warnings, 1 error
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+..\SYSTEM\usart\usart.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\SYSTEM\usart\usart.c:   #include "sys.h"
+..\SYSTEM\usart\usart.c:                   ^
+..\SYSTEM\usart\usart.c: ..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+compiling led.c...
+led.c: Error:  #5: cannot open source input file "..\Hard ware\LED\led.c": No such file or directory
+led.c: ..\Hard ware\LED\led.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+test.c(2): error:  #5: cannot open source input file "uart.h": No such file or directory
+test.c:   # include "uart.h"
+test.c:                     ^
+test.c: test.c: 0 warnings, 1 error
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+led.c: Error:  #5: cannot open source input file "..\Hard ware\LED\led.c": No such file or directory
+led.c: ..\Hard ware\LED\led.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+test.c(2): error:  #5: cannot open source input file "uart.h": No such file or directory
+test.c:   # include "uart.h"
+test.c:                     ^
+test.c: test.c: 0 warnings, 1 error
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+..\HARDWARE\LED\led.h(7): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.h:   # endif
+..\HARDWARE\LED\led.h:          ^
+..\HARDWARE\LED\led.c(10): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.c:   }
+..\HARDWARE\LED\led.c:    ^
+..\HARDWARE\LED\led.c: ..\HARDWARE\LED\led.c: 2 warnings, 0 errors
+Target not created
+Build target 'Target 1'
+compiling test.c...
+..\HARDWARE\LED\led.h(7): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.h:   # endif
+..\HARDWARE\LED\led.h:          ^
+test.c(7): warning:  #223-D: function "Stm32_clock_Init" declared implicitly
+test.c:         Stm32_clock_Init(9);
+test.c:         ^
+test.c(12): warning:  #223-D: function "PBOUT" declared implicitly
+test.c:                 LED0=0;
+test.c:                 ^
+test.c(12): error:  #137: expression must be a modifiable lvalue
+test.c:                 LED0=0;
+test.c:                 ^
+test.c(14): error:  #137: expression must be a modifiable lvalue
+test.c:                 LED0=1;
+test.c:                 ^
+test.c: test.c: 3 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+..\HARDWARE\LED\led.h(7): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.h:   # endif
+..\HARDWARE\LED\led.h:          ^
+test.c(7): warning:  #223-D: function "Stm32_clock_Init" declared implicitly
+test.c:         Stm32_clock_Init(9);
+test.c:         ^
+test.c(12): warning:  #223-D: function "PBOUT" declared implicitly
+test.c:                 LED0=0;
+test.c:                 ^
+test.c(12): error:  #137: expression must be a modifiable lvalue
+test.c:                 LED0=0;
+test.c:                 ^
+test.c(14): error:  #137: expression must be a modifiable lvalue
+test.c:                 LED0=1;
+test.c:                 ^
+test.c: test.c: 3 warnings, 2 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+..\HARDWARE\LED\led.h(7): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.h:   # endif
+..\HARDWARE\LED\led.h:          ^
+..\HARDWARE\LED\led.c(10): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.c:   }
+..\HARDWARE\LED\led.c:    ^
+..\HARDWARE\LED\led.c: ..\HARDWARE\LED\led.c: 2 warnings, 0 errors
+Target not created
+Build target 'Target 1'
+compiling test.c...
+..\HARDWARE\LED\led.h(7): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.h:   # endif
+..\HARDWARE\LED\led.h:          ^
+test.c(7): warning:  #223-D: function "Stm32_clock_Init" declared implicitly
+test.c:         Stm32_clock_Init(9);
+test.c:         ^
+test.c: test.c: 2 warnings, 0 errors
+compiling led.c...
+..\HARDWARE\LED\led.h(7): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.h:   # endif
+..\HARDWARE\LED\led.h:          ^
+..\HARDWARE\LED\led.c(10): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.c:   }
+..\HARDWARE\LED\led.c:    ^
+..\HARDWARE\LED\led.c: ..\HARDWARE\LED\led.c: 2 warnings, 0 errors
+linking...
+..\led.axf: Error: L6218E: Undefined symbol Stm32_clock_Init (referred from test.o).
+..\led.axf: Not enough information to list image symbols.
+..\led.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+..\HARDWARE\LED\led.h(7): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.h:   # endif
+..\HARDWARE\LED\led.h:          ^
+test.c(7): warning:  #223-D: function "Stm32_clock_Init" declared implicitly
+test.c:         Stm32_clock_Init(9);
+test.c:         ^
+test.c: test.c: 2 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+..\HARDWARE\LED\led.h(7): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.h:   # endif
+..\HARDWARE\LED\led.h:          ^
+..\HARDWARE\LED\led.c(10): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.c:   }
+..\HARDWARE\LED\led.c:    ^
+..\HARDWARE\LED\led.c: ..\HARDWARE\LED\led.c: 2 warnings, 0 errors
+linking...
+..\led.axf: Error: L6218E: Undefined symbol Stm32_clock_Init (referred from test.o).
+..\led.axf: Not enough information to list image symbols.
+..\led.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling test.c...
+test.c(7): warning:  #223-D: function "Stm32_clock_Init" declared implicitly
+test.c:         Stm32_clock_Init(9);
+test.c:         ^
+test.c: test.c: 1 warning, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+..\HARDWARE\LED\led.c(10): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.c:   }
+..\HARDWARE\LED\led.c:    ^
+..\HARDWARE\LED\led.c: ..\HARDWARE\LED\led.c: 1 warning, 0 errors
+linking...
+..\led.axf: Error: L6218E: Undefined symbol Stm32_clock_Init (referred from test.o).
+..\led.axf: Not enough information to list image symbols.
+..\led.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+compiling test.c...
+linking...
+Program Size: Code=3032 RO-data=336 RW-data=4 ZI-data=1636  
+FromELF: creating hex file...
+"..\led.axf" - 0 Error(s), 0 Warning(s).
